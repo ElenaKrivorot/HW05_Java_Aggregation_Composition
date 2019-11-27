@@ -1,8 +1,8 @@
 package by.krivorot.hw05.task02.main;
 
-import by.krivorot.hw05.task02.emptity.Automobile;
-import by.krivorot.hw05.task02.emptity.Engine;
-import by.krivorot.hw05.task02.emptity.Wheel;
+import by.krivorot.hw05.task02.entity.Automobile;
+import by.krivorot.hw05.task02.entity.Engine;
+import by.krivorot.hw05.task02.entity.Wheel;
 import by.krivorot.hw05.task02.logic.AutomobileLogic;
 import by.krivorot.hw05.task02.logic.EngineLogic;
 import by.krivorot.hw05.task02.view.AutomobileView;

@@ -1,6 +1,6 @@
 package by.krivorot.hw05.task02.logic;
 
-import by.krivorot.hw05.task02.emptity.Engine;
+import by.krivorot.hw05.task02.entity.Engine;
 
 public class EngineLogic {
 

@@ -1,7 +1,7 @@
 package by.krivorot.hw05.task02.logic;
 
-import by.krivorot.hw05.task02.emptity.Automobile;
-import by.krivorot.hw05.task02.emptity.Wheel;
+import by.krivorot.hw05.task02.entity.Automobile;
+import by.krivorot.hw05.task02.entity.Wheel;
 
 public class AutomobileLogic {
 
