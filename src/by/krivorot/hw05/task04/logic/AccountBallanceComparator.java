@@ -2,7 +2,7 @@ package by.krivorot.hw05.task04.logic;
 
 import java.util.Comparator;
 
-import by.krivorot.hw05.task04.emptity.Account;
+import by.krivorot.hw05.task04.entity.Account;
 
 public class AccountBallanceComparator implements Comparator<Account> {
 

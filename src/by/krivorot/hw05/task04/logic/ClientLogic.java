@@ -1,7 +1,7 @@
 package by.krivorot.hw05.task04.logic;
 
-import by.krivorot.hw05.task04.emptity.Account;
-import by.krivorot.hw05.task04.emptity.Client;
+import by.krivorot.hw05.task04.entity.Account;
+import by.krivorot.hw05.task04.entity.Client;
 
 public class ClientLogic {
 

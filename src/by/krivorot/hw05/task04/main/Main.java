@@ -2,8 +2,8 @@ package by.krivorot.hw05.task04.main;
 
 import java.util.Collections;
 
-import by.krivorot.hw05.task04.emptity.Account;
-import by.krivorot.hw05.task04.emptity.Client;
+import by.krivorot.hw05.task04.entity.Account;
+import by.krivorot.hw05.task04.entity.Client;
 import by.krivorot.hw05.task04.logic.AccountBallanceComparator;
 import by.krivorot.hw05.task04.logic.AccountNumberComparator;
 import by.krivorot.hw05.task04.logic.AccountStatusComparator;
