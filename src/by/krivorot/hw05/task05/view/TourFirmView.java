@@ -2,7 +2,7 @@ package by.krivorot.hw05.task05.view;
 
 import java.util.List;
 
-import by.krivorot.hw05.task05.emptity.Tour;
+import by.krivorot.hw05.task05.entity.Tour;
 
 public class TourFirmView {
 

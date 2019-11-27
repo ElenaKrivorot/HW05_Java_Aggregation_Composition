@@ -1,10 +1,10 @@
 package by.krivorot.hw05.task05.main;
 
-import by.krivorot.hw05.task05.emptity.Food;
-import by.krivorot.hw05.task05.emptity.Tour;
-import by.krivorot.hw05.task05.emptity.TourType;
-import by.krivorot.hw05.task05.emptity.Tourfirm;
-import by.krivorot.hw05.task05.emptity.Transport;
+import by.krivorot.hw05.task05.entity.Food;
+import by.krivorot.hw05.task05.entity.Tour;
+import by.krivorot.hw05.task05.entity.TourType;
+import by.krivorot.hw05.task05.entity.Tourfirm;
+import by.krivorot.hw05.task05.entity.Transport;
 import by.krivorot.hw05.task05.logic.TourFirmLogic;
 import by.krivorot.hw05.task05.view.TourFirmView;
 
