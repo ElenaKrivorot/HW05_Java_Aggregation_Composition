@@ -1,6 +1,6 @@
 package by.krivorot.hw05.task03.logic;
 
-import by.krivorot.hw05.task03.emptity.Country;
+import by.krivorot.hw05.task03.entity.Country;
 
 public class CountryLogic {
 

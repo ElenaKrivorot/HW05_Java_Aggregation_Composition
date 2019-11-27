@@ -1,9 +1,9 @@
 package by.krivorot.hw05.task03.main;
 
-import by.krivorot.hw05.task03.emptity.Country;
-import by.krivorot.hw05.task03.emptity.District;
-import by.krivorot.hw05.task03.emptity.Region;
-import by.krivorot.hw05.task03.emptity.Town;
+import by.krivorot.hw05.task03.entity.Country;
+import by.krivorot.hw05.task03.entity.District;
+import by.krivorot.hw05.task03.entity.Region;
+import by.krivorot.hw05.task03.entity.Town;
 import by.krivorot.hw05.task03.logic.CountryLogic;
 import by.krivorot.hw05.task03.view.CountryView;
 

@@ -1,7 +1,7 @@
 package by.krivorot.hw05.task03.view;
 
-import by.krivorot.hw05.task03.emptity.Country;
-import by.krivorot.hw05.task03.emptity.Region;
+import by.krivorot.hw05.task03.entity.Country;
+import by.krivorot.hw05.task03.entity.Region;
 
 public class CountryView {
 
