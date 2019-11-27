@@ -1,8 +1,8 @@
 package by.krivorot.hw05.task01.main;
 
-import by.krivorot.hw05.task01.emptity.Sentence;
-import by.krivorot.hw05.task01.emptity.Text;
-import by.krivorot.hw05.task01.emptity.Word;
+import by.krivorot.hw05.task01.entity.Sentence;
+import by.krivorot.hw05.task01.entity.Text;
+import by.krivorot.hw05.task01.entity.Word;
 import by.krivorot.hw05.task01.view.TextView;
 
 public class Main {
