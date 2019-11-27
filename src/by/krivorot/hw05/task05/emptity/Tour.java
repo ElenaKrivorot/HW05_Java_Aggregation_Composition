@@ -130,5 +130,4 @@ public class Tour {
 				+ transport + ", food=" + food + ", type=" + type + "]";
 	}
 
-	
 }
