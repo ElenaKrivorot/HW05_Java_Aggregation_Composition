@@ -3,16 +3,16 @@ package by.krivorot.hw05.task05.entity;
 public class Tour {
 	private String counrty;
 	private String resort;
-	private String date;
+	private String startDate;
 	private int days;
 	private Transport transport;
 	private Food food;
 	private TourType type;
 
-	public Tour(String counrty, String resort, String date, int days, Transport transport, Food food, TourType type) {
+	public Tour(String counrty, String resort, String startDate, int days, Transport transport, Food food, TourType type) {
 		this.counrty = counrty;
 		this.resort = resort;
-		this.date = date;
+		this.startDate = startDate;
 		this.days = days;
 		this.transport = transport;
 		this.food = food;
@@ -35,12 +35,12 @@ public class Tour {
 		this.resort = resort;
 	}
 
-	public String getDate() {
-		return date;
+	public String getStartDate() {
+		return startDate;
 	}
 
-	public void setDate(String date) {
-		this.date = date;
+	public void setStartDate(String date) {
+		this.startDate = startDate;
 	}
 
 	public int getDays() {
@@ -80,7 +80,7 @@ public class Tour {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((counrty == null) ? 0 : counrty.hashCode());
-		result = prime * result + ((date == null) ? 0 : date.hashCode());
+		result = prime * result + ((startDate == null) ? 0 : startDate.hashCode());
 		result = prime * result + days;
 		result = prime * result + ((food == null) ? 0 : food.hashCode());
 		result = prime * result + ((resort == null) ? 0 : resort.hashCode());
@@ -103,10 +103,10 @@ public class Tour {
 				return false;
 		} else if (!counrty.equals(other.counrty))
 			return false;
-		if (date == null) {
-			if (other.date != null)
+		if (startDate == null) {
+			if (other.startDate != null)
 				return false;
-		} else if (!date.equals(other.date))
+		} else if (!startDate.equals(other.startDate))
 			return false;
 		if (days != other.days)
 			return false;
@@ -126,7 +126,7 @@ public class Tour {
 
 	@Override
 	public String toString() {
-		return "Tour [counrty=" + counrty + ", resort=" + resort + ", date=" + date + ", days=" + days + ", transport="
+		return "Tour [counrty=" + counrty + ", resort=" + resort + ", date=" + startDate + ", days=" + days + ", transport="
 				+ transport + ", food=" + food + ", type=" + type + "]";
 	}
 
